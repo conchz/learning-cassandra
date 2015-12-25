@@ -1,1 +1,1 @@
-# learning-scylladb
+# learning-cassandra
