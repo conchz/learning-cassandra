@@ -10,7 +10,6 @@
 
 
     <properties>
-        <cassandra.version>2.1.9</cassandra.version>
         <kundera.cassandra.version>3.2</kundera.cassandra.version>
     </properties>
 
@@ -38,16 +37,6 @@
             <groupId>com.impetus.kundera.client</groupId>
             <artifactId>kundera-cassandra</artifactId>
             <version>${kundera.cassandra.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.datastax.cassandra</groupId>
-            <artifactId>cassandra-driver-core</artifactId>
-            <version>${cassandra.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.datastax.cassandra</groupId>
-            <artifactId>cassandra-driver-mapping</artifactId>
-            <version>${cassandra.version}</version>
         </dependency>
     </dependencies>
 
